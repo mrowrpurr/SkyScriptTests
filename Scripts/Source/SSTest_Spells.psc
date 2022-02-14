@@ -1,0 +1,1 @@
+scriptName SSTest_Spells extends Quest

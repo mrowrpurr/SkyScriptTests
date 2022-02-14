@@ -1,0 +1,17 @@
+{
+    "//": "Represents a dog!",
+    "class": "Dog",
+    "name": "string",
+    "bark()": {
+        "print": "Woof! My name is ${this.name}"
+    },
+    "eat()": [{"food": "string"}, {
+        "print": "Yummy! ${this.name} is eating ${food}"
+    }],
+    "play()": [
+        { "toys =>": "Toy.getAll()" },
+        { "foreach": "toy", "in": "toys", "do": {
+            "print": "${this.name} plays with toy ${toy.name}"
+        }}
+    ]
+}
