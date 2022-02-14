@@ -1,0 +1,10 @@
+{
+    "class": "Dog",
+    "anotherField": "int",
+    "anotherMethod()": {
+        "print": "Hi from another method of ${this.class}"
+    },
+    "toString()": {
+        "return": "${this.name}"
+    }
+}
