@@ -1,0 +1,5 @@
+{
+    "class": "FalseClass",
+    "inherits": "Bool",
+    "_value": 0
+}

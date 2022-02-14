@@ -1,0 +1,5 @@
+{
+    "//": "Int object (has an __int__ primitive value)",
+    "class": "Int",
+    "value": "__int__"
+}

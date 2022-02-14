@@ -1,0 +1,13 @@
+{
+    "//": "Bool object (uses an __int__ primitive value)",
+    "class": "Bool",
+    "_value": "__int__",
+    "value": {
+        "get": { "if": "this._value", "then": "True", "else": "False" },
+        "set": {
+            "if": "value",
+            "then": { "this._value =>": 1 },
+            "else": { "this._value =>": 0 }
+        }
+    }
+}

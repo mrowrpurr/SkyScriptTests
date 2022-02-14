@@ -1,0 +1,5 @@
+{
+    "//": "String object (has a __string__ primitive value)",
+    "class": "String",
+    "value": "__string__"
+}

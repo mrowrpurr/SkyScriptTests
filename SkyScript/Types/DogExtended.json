@@ -6,5 +6,8 @@
     },
     "toString()": {
         "return": "${this.name}"
-    }
+    },
+
+    "foo =": { "some literal": 12.34 },
+    "bar =>": { "return": "some expression return value" }
 }
