@@ -1,7 +1,20 @@
 {
     "//": "Represents a dog!",
     "class": "Dog",
+    
+    "static instances": { "Map.new": "Dog" },
+    "static dogs": { "get": "Dog.allDogs()" },
+    "static allDogs()": "Dog.instances.values()",
+
     "name": "string",
+    
+    "init()": [{"name": {"string": ""}}, [
+        { "this.name =>": "name" },
+        { "Dog.instances.set()": ["this.name", "this"] }
+    ]],
+    "dispose()": {
+        "Dog.instances.remove()": "this.name"
+    },
     "bark()": {
         "print": "Woof! My name is ${this.name}"
     },
