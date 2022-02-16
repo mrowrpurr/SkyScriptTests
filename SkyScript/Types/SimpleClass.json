@@ -1,0 +1,11 @@
+{
+    "//": "This is the class description. Class name is intentionally different from file name.",
+    "class": "MySimpleClass",
+    
+    "someField": "string",
+    "anotherField": "int",
+    "someFunction()": { "return": "Hi, ${this.someField}." },
+
+    "_privateField": "float",
+    "_privateFunction() =>": "expression"
+}
